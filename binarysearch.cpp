@@ -16,10 +16,10 @@ int main (){
             return 0;
         }
         if (A[mid]>x){
-            right=mid+1;
+            right=mid-1;
         }
         else {
-            left =mid -1;
+            left =mid +1;
         }
     }
     cout << "not found"<< endl;
